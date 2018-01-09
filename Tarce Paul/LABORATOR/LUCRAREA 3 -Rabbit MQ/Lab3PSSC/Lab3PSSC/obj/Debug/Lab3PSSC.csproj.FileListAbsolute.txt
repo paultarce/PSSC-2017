@@ -1,0 +1,9 @@
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\bin\Debug\Lab3PSSC.exe.config
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\bin\Debug\Lab3PSSC.exe
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\bin\Debug\Lab3PSSC.pdb
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\bin\Debug\RabbitMQ.Client.dll
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\bin\Debug\RabbitMQ.Client.xml
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\obj\Debug\Lab3PSSC.csprojResolveAssemblyReference.cache
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\obj\Debug\Lab3PSSC.exe
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\obj\Debug\Lab3PSSC.pdb
+D:\cursuri\An4\PSSC\lab\Lab3PSSC\Lab3PSSC\obj\Debug\Lab3PSSC.csproj.CoreCompileInputs.cache
