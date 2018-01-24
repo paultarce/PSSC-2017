@@ -1,0 +1,68 @@
+﻿@model AtelierAuto.Models.ComandaMvc
+
+@{
+    ViewBag.Title = "PlasareComanda";
+}
+
+@using (Html.BeginForm("PlasareComanda2", "Home", FormMethod.Post, new { @class = "linkStyle", mvc = @Model }))
+
+{
+    <div>
+        <fieldset>
+            <div class="editor-label">
+                @Html.LabelFor(m => m.masina.Model)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.masina.Model)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(m => m.masina.anFabricatie)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.masina.anFabricatie)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(m => m.masina.civ.civ)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.masina.civ.civ)
+                <div class="editor-label">
+                    @Html.LabelFor(m => m.masina.serieSasiu.sasiu)
+                </div>
+                <div class="editor-field">
+                    @Html.TextBoxFor(m => m.masina.serieSasiu.sasiu)
+                </div>
+                <div class="editor-label">
+                    @Html.LabelFor(m => m.mecanic.nume)
+                </div>
+                <div class="editor-field">
+                    @Html.TextBoxFor(m => m.mecanic.nume)
+                </div>
+                <div class="editor-label">
+                    @Html.LabelFor(m => m.mecanic.idMecanic)
+                </div>
+                <div class="editor-field">
+                    @Html.TextBoxFor(m => m.mecanic.idMecanic)
+                    <div class="editor-label">
+                        @Html.LabelFor(m => m.client.nume)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(m => m.client.nume)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(m => m.client.idClient)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(m => m.client.idClient)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(m => m.cerereClient)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(m => m.cerereClient)
+                    </div>
+                   
+                    <input type="submit" value="PlasareComanda" />
+        </fieldset>
+    </div>
+}

@@ -1,0 +1,95 @@
+﻿@model IEnumerable<AtelierAuto.Models.ComandaMvc>
+@{
+    ViewBag.Title = "Afisare Comenzi";
+}
+
+<h2>AfisareMasini</h2>
+<p>
+    @Html.ActionLink("Adauga Comanda", "PlasareComanda2")
+</p>
+<table class="table">
+   <tr>
+    <th>
+        @Html.DisplayNameFor(model => model.iDComanda.Id)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.mecanic.idMecanic)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.mecanic.nume)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.client.idClient)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.client.nume)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.masina.Model)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.masina.anFabricatie)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.masina.civ.civ)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.masina.serieSasiu.sasiu)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.stareComanda)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.cerereClient)
+    </th>
+    <th></th>
+   </tr>
+
+    @foreach (var item in Model)
+
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.iDComanda.Id)
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mecanic.idMecanic)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mecanic.nume.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.client.idClient)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.client.nume.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.masina.Model.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.masina.anFabricatie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.masina.civ.civ)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.masina.serieSasiu.sasiu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stareComanda)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cerereClient)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit") |
+            @Html.ActionLink("Delete", "Delete", new { @class = "linkStyle", CIV = item.masina.civ.ToString() }) |
+            @Html.ActionLink("Rezerva", "Rezerva", new { @class = "linkStyle", CIV = item.masina.civ.ToString() })
+        </td>
+   </tr> 
+
+    }
+</table>

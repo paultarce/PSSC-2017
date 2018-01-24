@@ -1,0 +1,51 @@
+﻿@model AtelierAuto.Models.Comanda
+
+@{
+    ViewBag.Title = "AfisareComandaPlasata";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>AfisareComandaPlasata</h2>
+
+   <form method="post" action="PlasareComandaControler/PlasareComandaControlerr" ></form>
+    <div>
+        <fieldset>
+
+          Masina: <br />
+            <label>Model</label>
+            <input id="Text1" type="text" value="WV Passat B6" /><br />
+            <label>An fabricatie</label>
+            <input id="Text2" type="text" value="2005" /><br />
+            <label>CIV</label>
+            <input id="Text3" type="text" value="EI309MNN" /><br />
+            <label>SeriSasitu</label>
+            <input id="Text4" type="text" value="ALABALAPR" /><br />
+          Mecanic: <br />
+            <label>Nume</label>
+            <input id="Text5" type="text" value="Nelu" /><br />
+            <label>IdMecanic</label>
+            <input id="Text6" type="text" value="1" /><br />
+          Client: <br />
+            <label>Nume</label>
+            <input id="Text7" type="text" value="Nelu" /><br />
+            <label>Id</label>
+            <input id="Text8" type="text" value="1" /><br />
+          Comanda: <br />
+            <label>IdComanda</label>
+            <input id="Text7" type="text" value="2" /><br />
+            <label>Detalii</label>
+            <input id="Text8" type="text" value="reparatii turbina" /><br />
+
+            <br/>
+            <br />
+            <label>IdEveniment</label>
+            <input id="Text9" type="text" value="22" /><br />
+            <label>Client</label>
+            <input id="Text10" type="text" /><br />
+            <label>IdComanda</label>
+            <input id="Text11" type="text" /><br />
+            <label>StareComanda</label>
+            <input id="Text12" type="text" /><br />
+
+            <input type="submit" value="Plasare Comanda" /><br />
+        </fieldset>
+    </div>

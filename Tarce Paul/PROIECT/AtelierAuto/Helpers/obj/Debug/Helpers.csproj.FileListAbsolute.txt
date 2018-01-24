@@ -1,0 +1,16 @@
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\Helpers.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\obj\Debug\Helpers.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\Helpers.dll.config
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.xml
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Paul\Documents\GitHub\ProjectsAn4\AtelierAuto\Helpers\bin\Debug\EntityFramework.SqlServerCompact.xml

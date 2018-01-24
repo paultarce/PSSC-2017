@@ -1,0 +1,21 @@
+﻿@model AtelierAuto.Models.ComandaMvc
+
+@{
+    ViewBag.Title = "View";
+}
+<h2>CautareComanda</h2>
+@using (Html.BeginForm("CautaComanda", "Home", FormMethod.Post, new { @class = "linkStyle", mvc = @Model }))
+{
+    <div>
+        <fieldset>
+            <div class="editor-label">
+                @Html.LabelFor(c => c.iDComanda)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(c => c.iDComanda)
+            </div>
+          
+            <input type="submit" value="CautareComanda" />
+        </fieldset>
+    </div>
+}

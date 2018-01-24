@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "HomePage";
+}
+<h2>WELCOME TO AUTOFOCUS</h2>
+
+@using (Html.BeginForm("CautaComanda", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Cauta Comanda">
+}
+
+@using (Html.BeginForm("AfisareComenzi", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Afisare Comenzi">
+}
+
+@using (Html.BeginForm("PlasareComanda2", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Plasare Comanda">
+}
+
+@using (Html.BeginForm("CautaComanda2", "Home", new { enctype = "multipart/form-data" }))
+{
+    <input type="submit" value="Cauta Comanda">
+}
+
+<input type="button" value="Plasare comanda" name="pasareComanda"/> <br />
+<input type="button" value="Vizualizare Comenzi" name="vizualizareComenzi" /><br />
+<input type="button" value="Editare Comnezi" name="editareComenzi" /><br />
+<input type="button" value="Facturare" name="facturare" /><br />
+<input type="button" value="Adaugare masina" name="addMasina" /><br />
